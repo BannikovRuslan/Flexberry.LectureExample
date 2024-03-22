@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-lecture-example-product-e",
+  "editForm": "i-i-s-lecture-example-product-e",
+  "external": false,
+  "caption": "Product",
+  "name": "IISLectureExampleProductL",
+  "className": "ProductL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-lecture-example-product",
+      "modelProjection": "ProductL"
+    }
+  ]
+}

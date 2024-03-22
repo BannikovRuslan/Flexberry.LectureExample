@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Lecture example",
+  "applicationTitle": "Lecture example",
+  "items": [
+    {
+      "link": null,
+      "menuName": "lecture-example",
+      "caption": "LectureExample",
+      "title": "LectureExample",
+      "children": [
+        {
+          "link": "i-i-s-lecture-example-product-l",
+          "menuName": null,
+          "caption": "Product",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-lecture-example-order-l",
+          "menuName": null,
+          "caption": "Order",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

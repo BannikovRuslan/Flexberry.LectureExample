@@ -1,0 +1,131 @@
+﻿{
+  "name": "IISLectureExampleOrder",
+  "modelName": "i-i-s-lecture-example-order",
+  "className": "Order",
+  "nameSpace": "IIS.LectureExample",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "paymentDay",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "shipmentDate",
+      "type": "date",
+      "flexberryType": "DateTime",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "status",
+      "type": "i-i-s-lecture-example-order-status",
+      "flexberryType": "OrderStatus",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
+      "name": "totalSum",
+      "type": "decimal",
+      "flexberryType": "double",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": false,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [],
+  "hasMany": [
+    {
+      "name": "orderItem",
+      "relatedTo": "i-i-s-lecture-example-order-item",
+      "inverse": "order"
+    }
+  ],
+  "projections": [
+    {
+      "name": "OrderE",
+      "modelName": "i-i-s-lecture-example-order",
+      "attrs": [
+        {
+          "name": "status",
+          "caption": "Status",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "shipmentDate",
+          "caption": "Shipment date",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "paymentDay",
+          "caption": "Payment day",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "totalSum",
+          "caption": "Total sum",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": [
+        {
+          "projectionName": "OrderItemE",
+          "caption": "Order item",
+          "name": "orderItem",
+          "relatedTo": "i-i-s-lecture-example-order-item",
+          "inverse": null
+        }
+      ]
+    },
+    {
+      "name": "OrderL",
+      "modelName": "i-i-s-lecture-example-order",
+      "attrs": [
+        {
+          "name": "status",
+          "caption": "Status",
+          "hidden": false,
+          "index": 0
+        },
+        {
+          "name": "shipmentDate",
+          "caption": "Shipment date",
+          "hidden": false,
+          "index": 1
+        },
+        {
+          "name": "paymentDay",
+          "caption": "Payment day",
+          "hidden": false,
+          "index": 2
+        },
+        {
+          "name": "totalSum",
+          "caption": "Total sum",
+          "hidden": false,
+          "index": 3
+        }
+      ],
+      "belongsTo": [],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

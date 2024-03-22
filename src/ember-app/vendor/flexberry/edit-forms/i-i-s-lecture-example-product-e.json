@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Product",
+  "name": "IISLectureExampleProductE",
+  "className": "ProductE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-lecture-example-product",
+      "modelProjection": "ProductE"
+    }
+  ]
+}

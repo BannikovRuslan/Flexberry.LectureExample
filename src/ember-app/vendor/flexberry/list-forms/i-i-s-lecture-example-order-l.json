@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-lecture-example-order-e",
+  "editForm": "i-i-s-lecture-example-order-e",
+  "external": false,
+  "caption": "Order",
+  "name": "IISLectureExampleOrderL",
+  "className": "OrderL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-lecture-example-order",
+      "modelProjection": "OrderL"
+    }
+  ]
+}

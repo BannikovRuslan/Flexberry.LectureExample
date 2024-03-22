@@ -1,0 +1,23 @@
+﻿{
+  "propertyLookup": [
+    {
+      "master": "product",
+      "displayAttributeName": "name",
+      "required": false,
+      "relationName": "OrderItem.Product",
+      "projection": "ProductL",
+      "detailModelName": "i-i-s-lecture-example-order-item"
+    }
+  ],
+  "external": false,
+  "caption": "Order",
+  "name": "IISLectureExampleOrderE",
+  "className": "OrderE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-lecture-example-order",
+      "modelProjection": "OrderE"
+    }
+  ]
+}
