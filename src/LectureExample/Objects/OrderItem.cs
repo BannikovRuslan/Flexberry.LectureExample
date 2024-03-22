@@ -40,9 +40,9 @@ namespace IIS.LectureExample
     public class OrderItem : ICSSoft.STORMNET.DataObject
     {
         
-        private int fAmount;
-        
         private double fPriceWTaxes;
+        
+        private int fAmount;
         
         private double fTotalSum;
         

@@ -27,6 +27,7 @@ namespace IIS.LectureExample
 
     // *** End programmer edit section *** (Order CustomAttributes)
     [AutoAltered()]
+    [Caption("Заказ")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
     [View("OrderE", new string[] {
             "Status as \'Status\'",

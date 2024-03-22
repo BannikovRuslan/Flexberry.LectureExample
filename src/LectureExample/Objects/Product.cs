@@ -46,15 +46,15 @@ namespace IIS.LectureExample
     public class Product : ICSSoft.STORMNET.DataObject
     {
         
+        private string fName;
+        
         private int fProductCode;
         
-        private string fName;
+        private double fPrice;
         
         private string fMeasure;
         
         private string fDescription;
-        
-        private double fPrice;
         
         private double fWeight;
         
