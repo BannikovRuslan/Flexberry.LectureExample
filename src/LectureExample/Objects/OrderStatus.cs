@@ -20,7 +20,7 @@ namespace IIS.LectureExample
 
 
     /// <summary>
-    /// Order status.
+    /// OrderStatus.
     /// </summary>
     // *** Start programmer edit section *** (OrderStatus CustomAttributes)
 
