@@ -22,13 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-lecture-example-product-l',
             caption: i18n.t('forms.application.sitemap.lecture-example.i-i-s-lecture-example-product-l.caption'),
             title: i18n.t('forms.application.sitemap.lecture-example.i-i-s-lecture-example-product-l.title'),
-            icon: 'edit',
+            icon: 'file',
             children: null
           }, {
             link: 'i-i-s-lecture-example-order-l',
             caption: i18n.t('forms.application.sitemap.lecture-example.i-i-s-lecture-example-order-l.caption'),
             title: i18n.t('forms.application.sitemap.lecture-example.i-i-s-lecture-example-order-l.title'),
-            icon: 'address card',
+            icon: 'phone',
             children: null
           }]
         }
