@@ -28,19 +28,28 @@ namespace IIS.LectureExample
     public enum OrderStatus
     {
         
-        // *** Start programmer edit section *** (OrderStatus.Новый CustomAttributes)
+        /// <summary>
+        /// Новый.
+        /// </summary>
+        // *** Start programmer edit section *** (OrderStatus.new CustomAttributes)
 
-        // *** End programmer edit section *** (OrderStatus.Новый CustomAttributes)
-        Новый,
+        // *** End programmer edit section *** (OrderStatus.new CustomAttributes)
+        @new,
         
-        // *** Start programmer edit section *** (OrderStatus.Оплаченный CustomAttributes)
+        /// <summary>
+        /// Оплаченный.
+        /// </summary>
+        // *** Start programmer edit section *** (OrderStatus.paid CustomAttributes)
 
-        // *** End programmer edit section *** (OrderStatus.Оплаченный CustomAttributes)
-        Оплаченный,
+        // *** End programmer edit section *** (OrderStatus.paid CustomAttributes)
+        paid,
         
-        // *** Start programmer edit section *** (OrderStatus.Отменённый CustomAttributes)
+        /// <summary>
+        /// Отмен.
+        /// </summary>
+        // *** Start programmer edit section *** (OrderStatus.canceled CustomAttributes)
 
-        // *** End programmer edit section *** (OrderStatus.Отменённый CustomAttributes)
-        Отменённый,
+        // *** End programmer edit section *** (OrderStatus.canceled CustomAttributes)
+        canceled,
     }
 }

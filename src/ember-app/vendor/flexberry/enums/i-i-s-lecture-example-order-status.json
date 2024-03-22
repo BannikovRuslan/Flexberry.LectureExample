@@ -2,8 +2,8 @@
   "nameSpace": "IIS.LectureExample",
   "className": "OrderStatus",
   "enumObjects": {
-    "Новый": "",
-    "Оплаченный": "",
-    "Отменённый": ""
+    "new": "",
+    "paid": "",
+    "canceled": ""
   }
 }

@@ -161,7 +161,6 @@ namespace IIS.LectureExample
             get
             {
                 // *** Start programmer edit section *** (Order.TotalSum Get)
-
                 return 0;
                 // *** End programmer edit section *** (Order.TotalSum Get)
             }
